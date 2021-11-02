@@ -2,4 +2,4 @@ import requests
 
 class requestUtil():
     def get(self):
-        print("")
+        print("1")
