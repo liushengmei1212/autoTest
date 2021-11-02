@@ -31,7 +31,7 @@ class excelToJson():
             sheet_dict[sheetNames[i]] = sheet_list
             sheets_list.append(sheet_dict)
         sheets_json = json.dumps(sheets_list, ensure_ascii=False)
-        print(sheets_json)
-
-obj = excelToJson()
-obj.readExcel()
+        return sheets_json
+#
+# obj = excelToJson()
+# obj.readExcel()
